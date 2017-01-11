@@ -1,8 +1,9 @@
 .header {
-  height: 100px;
+  height: 120px;
   width: 100%;
-  background-color: blue;
+  background-color: gray;
   text-align: center;
+  color: white;
 }
 
 .footer {
@@ -14,7 +15,13 @@
   background-color: gray;
 }
 
-
+.textBox {
+  display: block;
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  margin: 0 auto;
+}
 
 ul li {
   display: inline;
