@@ -4,7 +4,7 @@ class Footer extends React.Component {
   render(){
     return (
         <footer className="footer">
-          <p>This is the common footer</p>
+          <h1>This is the common footer</h1>
         </footer>
     );
   }

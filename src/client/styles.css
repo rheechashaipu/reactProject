@@ -13,13 +13,13 @@
   position: absolute;
   bottom: 0;
   background-color: gray;
+  color: white;
 }
 
 .textBox {
   display: block;
   width: 500px;
   height: 500px;
-  background-color: red;
   margin: 0 auto;
 }
 

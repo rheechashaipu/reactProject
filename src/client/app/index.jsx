@@ -11,8 +11,9 @@ class App extends React.Component {
   render () {
     return(
       <div>
-        <Header>
-        </Header>
+        <Header></Header>
+        {this.props.children}
+        <Footer></Footer>
       </div>
     );
   }
@@ -20,7 +21,11 @@ class App extends React.Component {
 
 render(
   <Router history={hashHistory}>
-    <Route path="/" component={App}/>
+    <Route path="/" component={App}>
+      <Route path="/PageOne" component={PageOne} />
+      <Route path="/PageTwo" component={PageTwo} />
+      <Route path="/PageThree" component={PageThree} />
+    </Route>
   </Router>,
   document.getElementById('app')
 );

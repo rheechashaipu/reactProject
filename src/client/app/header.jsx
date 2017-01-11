@@ -5,17 +5,13 @@ class Header extends React.Component {
   render(){
     return(
       <header className="header">
-        <h1>This is the common footer</h1>
+        <h1>This is the common Header</h1>
         <ul>
-          <li>First Page</li>
-          <li>Second Page</li>
-          <li>Third Page</li>
+          <li><Link to="PageOne">First Page</Link></li>
+          <li><Link to="PageTwo">Second Page</Link></li>
+          <li><Link to="PageThree">Third Page</Link></li>
         </ul>
       </header>
-      {this.props.children}
-      <footer className="footer">
-        <p>This is the common footer</p>
-      </footer>
     );
   }
 }
